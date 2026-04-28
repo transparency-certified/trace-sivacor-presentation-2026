@@ -1,6 +1,6 @@
 #!/bin/bash
-
-container_id=$(docker container ls | tail -1  | awk ' { print $1 } ')
+name=project
+container_id=$(docker container ls | grep $name | awk ' { print $1 } ')
 
 [[ -z "$container_id" ]] && { echo "No running container found"; exit 1; }
 
