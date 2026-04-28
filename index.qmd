@@ -1,0 +1,31 @@
+---
+title: "TRACE: Transparency Certified"
+author: "Lars Vilhuber et al."
+date: today
+format:
+  revealjs:
+    theme: night
+    scrollable: true
+    code-overflow: wrap
+    chalkboard: true
+    width: 1200
+    height: 675
+    widescreen: true
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+source("global-libraries.R")
+```
+
+{{< include 01-problem.md >}}
+
+{{< include 02-state-of-research.md >}}
+
+{{< include 03-trace-framework.md >}}
+
+{{< include 04-trov-tro.md >}}
+
+{{< include 05-sivacor.md >}}
+
+{{< include 06-outreach.md >}}

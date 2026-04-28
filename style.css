@@ -1,0 +1,48 @@
+.goodcite {
+  background-color: #c7f3e47d;
+}
+
+.mediumcite {
+  background-color: #f8ebc07d;
+}
+
+.badcite {
+  background-color: #c284887d;
+}
+
+strong {
+  color: black;
+  background-color: lemonchiffon;
+}
+
+em {
+  color: black;
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+.white-col {
+  background-color: white;
+}
+
+.warning {
+  background-color: #FFB6C1;
+}
+
+.title-slide .title {
+  font-size: 1.3em;
+}
+
+.highlight-box {
+  border-left: 4px solid #4CAF50;
+  padding: 0.5em 1em;
+  background-color: rgba(76, 175, 80, 0.1);
+  font-style: italic;
+}
+
+.scenario {
+  border-left: 4px solid #2196F3;
+  padding: 0.3em 0.8em;
+  margin: 0.4em 0;
+  background-color: rgba(33, 150, 243, 0.08);
+}
