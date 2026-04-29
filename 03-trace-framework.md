@@ -10,9 +10,9 @@ A framework that allows inquiry into the reproducibility workflow **at any stage
 
 Document the *process*, not just the *outputs*
 
-- File arrangements (manifests with checksums)
-- Processing steps (software, timing, method, isolation)
-- Cryptographic signatures by certifying organizations
+- **File arrangements** (manifests with checksums)
+- **Processing steps** (software, timing, method, isolation)
+- **Cryptographic signatures** by certifying organizations
 
 ## Result
 
@@ -22,9 +22,50 @@ Document the *process*, not just the *outputs*
 - Inspected both by humans and automated scripts
 - Trusted via organizational credibility chains
 
-## The Generic Workflow (Before TRACE)
+## Generic Workflow (Before TRACE) {.smaller}
 
 ::: {.columns}
+::: {.column width="55%"}
+
+Consider a researcher using confidential data in a Restricted Access Data Center (RADC):
+
+1. Researcher gets environment with confidential data, writes code
+
+
+:::
+::: {.column width="45%"}
+
+![Generic workflow with confidential data](figs/TRACE-before-step1.png)
+
+:::
+:::
+
+
+## Generic Workflow (Before TRACE) {.smaller}
+
+::: {.columns}
+::: {.column width="55%"}
+
+Consider a researcher using confidential data in a Restricted Access Data Center (RADC):
+
+1. Researcher gets environment with confidential data, writes code
+2. Code is executed (a) → output produced
+
+
+:::
+::: {.column width="45%"}
+
+![Generic workflow with confidential data](figs/TRACE-before-step2.png)
+
+:::
+:::
+
+
+## Generic Workflow (Before TRACE) {.smaller}
+
+::: {.columns}
+
+
 ::: {.column width="55%"}
 
 Consider a researcher using confidential data in a Restricted Access Data Center (RADC):
@@ -42,13 +83,19 @@ Consider a researcher using confidential data in a Restricted Access Data Center
 
 :::
 :::
-## The Generic Workflow (Before TRACE)
+
+## Generic Workflow (Before TRACE)
 
 ::: {.columns}
 ::: {.column width="55%"}
 
 
-**Problem:** The World Bank certificate states in English that this process was followed. Codeocean points to an FAQ. **Neither is verifiable or machine-readable.**
+**Problem:** 
+
+- The World Bank certificate states in English that this process was followed. 
+- Codeocean points to an FAQ. 
+
+**Neither is verifiable or machine-readable.**
 
 :::
 ::: {.column width="45%"}
@@ -57,6 +104,8 @@ Consider a researcher using confidential data in a Restricted Access Data Center
 
 :::
 :::
+
+# Making a Workflow TRACE-Compliant
 
 ## Making a Workflow TRACE-Compliant
 
@@ -94,32 +143,53 @@ Add a few computationally easy steps:
 :::
 :::
 
-## Five Scenarios TRACE Addresses
+# Scenarios TRACE Addresses
 
-### SCN1 — Journal reproducibility checks
+## SCN1 — Journal reproducibility checks
 
-Authors use SIVACOR to demonstrate push-button reproducibility before submission. Journals with and without data editors can rely on the TRACE-compliant package. Estimated 20–40% of AEA submissions are amenable to this.
+::: {.highlight-box}
 
-## Five Scenarios (2/5)
+Authors use SIVACOR to demonstrate push-button reproducibility before submission. Journals with and without data editors can rely on the TRACE-compliant package. 
 
-### SCN2 — Certification at the source
+:::
 
-Long-running jobs on university clusters via SLURM can be configured with TRACE-compliant queues. **Universities become producers of TROs**, providing enhanced credibility to affiliated researchers.
+Estimated **20–40%** of AEA submissions are amenable to this.
 
-## Five Scenarios (3/5)
+## SCN2 — Certification at the source
 
-### SCN3 — Restricted access data environments
+::: {.highlight-box}
 
-RADCs have no vested interest in any particular paper — they satisfy the arms-length requirement. Partners at Banco de Portugal and Banca d'Italia are already implementing TRACE-compliant capabilities.
+Long-running jobs on university clusters via SLURM can be configured with TRACE-compliant queues. 
 
-## Five Scenarios (4/5)
+:::
 
-### SCN4 — Comparing reproducibility services
+**Universities become producers of TROs**, providing enhanced credibility to affiliated researchers.
+
+## SCN3 — Restricted access data environments
+
+::: {.highlight-box}
+
+RADCs have no vested interest in any particular paper — they satisfy the arms-length requirement. 
+
+:::
+
+Partners at **central banks** (and World Bank!) are already implementing TRACE-compliant capabilities.
+
+## SCN4 — Comparing reproducibility services
+
+::: {.highlight-box}
 
 TRACE provides a systematic, standardized vocabulary — machine- and human-readable — to compare Codeocean, cascad, World Bank, and others.
 
-## Five Scenarios (5/5)
+:::
 
-### SCN5 — Transient resources (commercial LLMs, disappearing data)
+## SCN5 — Transient resources (5/5)
 
-When data or services used in computation may no longer be available, TRACE provides a record of what existed at the time of execution.
+::: {.highlight-box}
+
+
+When data or services used in computation may no longer be available, TRACE provides a record of what existed at the time of execution. 
+
+:::
+
+For instance, **deprecated commercial LLM APIS!**

@@ -1,4 +1,4 @@
-global.libraries <- c("dplyr")
+global.libraries <- c("dplyr","qrcode")
 
 pkgTest <- function(x) {
   if (!require(x, character.only = TRUE)) {

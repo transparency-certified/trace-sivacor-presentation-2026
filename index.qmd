@@ -16,6 +16,29 @@ format:
 
 ```{r setup, include=FALSE}
 source("global-libraries.R")
+# The repository name
+
+message(Sys.getenv("GITHUB_REPOSITORY"))
+
+# Process the repository name to generate the URL
+# - split the two components
+# - combine them into a URL with 'github.io' in the middle
+
+SUBDIRECTORY <- "" # Leave this empty if this file is in the main directory of the repository
+
+GITHUB_REPOSITORY <- Sys.getenv("GITHUB_REPOSITORY")
+GITHUB_REPOSITORY_PARTS <- strsplit(GITHUB_REPOSITORY, "/")[[1]]
+REPOSITORY_URL <- paste0("https://github.com/", GITHUB_REPOSITORY)
+
+WEBSITE_URL <- paste0("https://", GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSITORY_PARTS[2], "/", SUBDIRECTORY)
+WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSITORY_PARTS[2], "/", SUBDIRECTORY)
+
+```
+
+```{r, child=c("00-qrcode.md")}
+```
+
+```{r, child=c("00-follow-along.md")}
 ```
 
 {{< include 01-problem.md >}}
@@ -28,4 +51,3 @@ source("global-libraries.R")
 
 {{< include 05-sivacor.md >}}
 
-{{< include 06-outreach.md >}}
