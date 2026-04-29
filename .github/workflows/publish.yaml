@@ -22,7 +22,7 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render presentation
-        run: quarto render index.qmd
+        run: quarto render index.qmd --output-dir _html
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
