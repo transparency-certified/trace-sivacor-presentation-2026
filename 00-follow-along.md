@@ -19,4 +19,4 @@
 
 ::::
 
-[`r WEBSITE_SHORT`](`r WEBSITE_URL`) (![](figs/pdf-round.png){width=50px}](`r WEBSITE_URL`/presentation.pdf))
+[`r WEBSITE_SHORT`](`r WEBSITE_URL`) [![](figs/pdf-round.png){width=50px}]( `r WEBSITE_URL`/presentation.pdf)
