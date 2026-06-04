@@ -69,13 +69,13 @@ jobs:
     - name: Download Pres Artifacts
       uses: actions/download-artifact@v8
       with:
-            path: .
-            pattern: artifact-presentation
+            name: artifact-presentation
+            path: ./artifact-presentation
     - name: Download Pres PDF
       uses: actions/download-artifact@v8
       with:
-            path: .
-            pattern: artifact-presentation-pdf
+            name: artifact-presentation-pdf
+            path: ./artifact-presentation-pdf
     # Adjust this to reflect what you are posting
     - name: Move stuff
       run: |
