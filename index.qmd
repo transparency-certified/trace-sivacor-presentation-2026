@@ -49,6 +49,8 @@ WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSI
 
 {{< include 04-trov-tro.md >}}
 
-{{< include 05-sivacor.md >}}
+{{< include 05-simple-steps.md >}}
 
-{{< include 07-development.md >}}
+{{< include 06-sivacor.md >}}
+
+{{< include 08-development.md >}}
