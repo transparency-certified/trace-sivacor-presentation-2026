@@ -25,7 +25,10 @@ jobs:
         run: quarto render index.qmd --output-dir _html
 
       - name: Render short presentation
-        run: quarto render short.qmd --output-dir _html
+        # rendering into _html directly would wipe the index.qmd output
+        run: |
+          quarto render short.qmd --output-dir _html_short
+          cp -r _html_short/. _html/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
@@ -88,7 +91,7 @@ jobs:
           ls -lR
           mv artifact-presentation website
           mv artifact-presentation-pdf/index.pdf website/presentation.pdf
-          mv artifact-presentation-pdf/short.pdf website/short.pdf
+          mv artifact-presentation-pdf/short.pdf website/presentation-short.pdf
     # Prepare the GitHub Pages action
     - name: prepare GitHub Pages action
       uses: actions/upload-pages-artifact@v5    
