@@ -76,7 +76,7 @@ A 2026 issue of *Nature* on social science reproducibility:
 :::
 ::: {.column width="50%}
 
-![Fig 2, Tyne et al. (2026)](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
+![Fig 2, @tynerInvestigatingReplicabilitySocial2026](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
 
 :::
 ::::
@@ -96,7 +96,7 @@ A 2026 issue of *Nature* on social science reproducibility:
 :::
 ::: {.column width="50%}
 
-![Fig 2, Tyne et al. (2026)](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
+![Fig 2, @tynerInvestigatingReplicabilitySocial2026](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
 
 :::
 ::::
@@ -116,7 +116,7 @@ A 2026 issue of *Nature* on social science reproducibility:
 :::
 ::: {.column width="50%}
 
-![Fig 2, Tyne et al. (2026)](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
+![Fig 2, @tynerInvestigatingReplicabilitySocial2026](figs/Screenshot%202026-04-21%20at%2019-44-25%20Fig.%202%20Data%20and%20code%20availability%20by%20field.%20Nature.png)
 
 :::
 ::::
@@ -129,14 +129,14 @@ A 2026 issue of *Nature* on social science reproducibility:
 
 ::: {.column width="50%}
 
-- Brodeur et al. (2026), crowdsourced with Sloan funding:
+- @brodeur2026, crowdsourced with Sloan funding:
   - *85% of 110 articles* (2022–2023) were reproducible
   - Required **80 replication games** and **3,500+ researchers**
 
 :::
 ::: {.column width="50%}
 
-![Fig 2, Brodeur et al. (2026)](figs/Screenshot%202026-04-21%20at%2019-47-18%20Fig.%202%20Statistical%20significance%20of%20publication%20and%20reanalysis.%20Nature.png)
+![Fig 2, @brodeur2026](figs/Screenshot%202026-04-21%20at%2019-47-18%20Fig.%202%20Statistical%20significance%20of%20publication%20and%20reanalysis.%20Nature.png)
 
 :::
 ::::
