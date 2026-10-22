@@ -60,6 +60,8 @@ PDF_FILE <- "presentation-short.pdf"
 
 {{< include 06-sivacor.md >}}
 
+{{< include 10-status.md >}}
+
 
 ```{r, child=c("99-links.md")}
 ```
