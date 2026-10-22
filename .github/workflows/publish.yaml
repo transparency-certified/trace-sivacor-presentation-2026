@@ -24,6 +24,9 @@ jobs:
       - name: Render presentation
         run: quarto render index.qmd --output-dir _html
 
+      - name: Render short presentation
+        run: quarto render short.qmd --output-dir _html
+
       - name: Upload artifact
         uses: actions/upload-artifact@v7
         with:
@@ -52,12 +55,15 @@ jobs:
         options: -v ${{ github.workspace }}/_html:/slides 
         run: |
           node /decktape/decktape.js --chrome-path /usr/bin/chromium-browser --chrome-arg=--no-sandbox --chrome-arg=--disable-gpu index.html index.pdf
+          node /decktape/decktape.js --chrome-path /usr/bin/chromium-browser --chrome-arg=--no-sandbox --chrome-arg=--disable-gpu short.html short.pdf
 
     - name: Upload Artifact
       uses: actions/upload-artifact@v7
       with:
         name: artifact-presentation-pdf
-        path: _html/index.pdf
+        path: |
+          _html/index.pdf
+          _html/short.pdf
   deploy-all:
     runs-on: ubuntu-latest
     needs: 
@@ -82,6 +88,7 @@ jobs:
           ls -lR
           mv artifact-presentation website
           mv artifact-presentation-pdf/index.pdf website/presentation.pdf
+          mv artifact-presentation-pdf/short.pdf website/short.pdf
     # Prepare the GitHub Pages action
     - name: prepare GitHub Pages action
       uses: actions/upload-pages-artifact@v5    

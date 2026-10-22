@@ -7,7 +7,7 @@
 - Consumers combine data and code, **re-run it**, and validate the analysis
 
 
-## Computational Reproducibility in the Social Sciences
+## Computational Reproducibility in the Social Sciences {.long-only}
 
 **But what makes this hard in practice?**
 
@@ -24,7 +24,7 @@
 :::
 ::::
 
-## Computational Reproducibility in the Social Sciences
+## Computational Reproducibility in the Social Sciences {.long-only}
 
 **But what makes this hard in practice?**
 
@@ -62,7 +62,7 @@
 ::::
 
 
-## Recent Evidence
+## Recent Evidence {.long-only}
 
 A 2026 issue of *Nature* on social science reproducibility:
 
@@ -81,7 +81,7 @@ A 2026 issue of *Nature* on social science reproducibility:
 :::
 ::::
 
-## Recent Evidence
+## Recent Evidence {.long-only}
 
 A 2026 issue of *Nature* on social science reproducibility:
 
@@ -205,7 +205,7 @@ Of those restricted papers:
 
 :::
 
-## The Key Question
+## The Key Question {.long-only}
 
 ::: {.highlight-box}
 

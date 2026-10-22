@@ -1,0 +1,65 @@
+---
+title: "TRACE: Transparency Certified"
+author: "Lars Vilhuber et al."
+date: today
+bibliography: references.bib
+filters:
+  - short-deck.lua
+format:
+  revealjs:
+    theme: night
+    scrollable: true
+    code-overflow: wrap
+    chalkboard: true
+    width: 1200
+    height: 675
+    widescreen: true
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+source("global-libraries.R")
+# The repository name
+
+message(Sys.getenv("GITHUB_REPOSITORY"))
+
+# Process the repository name to generate the URL
+# - split the two components
+# - combine them into a URL with 'github.io' in the middle
+
+SUBDIRECTORY <- "" # Leave this empty if this file is in the main directory of the repository
+
+GITHUB_REPOSITORY <- Sys.getenv("GITHUB_REPOSITORY")
+GITHUB_REPOSITORY_PARTS <- strsplit(GITHUB_REPOSITORY, "/")[[1]]
+REPOSITORY_URL <- paste0("https://github.com/", GITHUB_REPOSITORY)
+
+WEBSITE_URL <- paste0("https://", GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSITORY_PARTS[2], "/", SUBDIRECTORY)
+WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSITORY_PARTS[2], "/", SUBDIRECTORY)
+
+# Name of the PDF version of this deck (see .github/workflows/publish.yaml)
+PDF_FILE <- "presentation-short.pdf"
+
+```
+
+
+```{r, child=c("00-qrcode.md")}
+```
+
+```{r, child=c("00-follow-along.md")}
+```
+
+{{< include 01-problem.md >}}
+
+{{< include 02-state-of-research.md >}}
+
+{{< include 03-trace-framework.md >}}
+
+{{< include 04-trov-tro.md >}}
+
+
+
+{{< include 06-sivacor.md >}}
+
+
+```{r, child=c("99-links.md")}
+```

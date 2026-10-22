@@ -7,7 +7,7 @@
 ![](figs/sivacor-flowchart-simple.png)
 
 
-## Live
+## Live {.long-only}
 
 
 [![](figs/sivacor-login.png)](https://submit.sivacor.org)
@@ -97,3 +97,8 @@ For journals:
 Universities, research data centers, and compute facilities become **producers of credibility** — not just reproducibility services.
 :::
 :::
+
+## SIVACOR is live.
+
+[![](figs/sivacor-login.png)](https://submit.sivacor.org)
+

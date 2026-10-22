@@ -34,7 +34,7 @@ TROs must be issued by **organizations** (not individuals):
 2. Journal publishes the TRO → adds another layer of credibility
 3. Other journals and researchers can rely on that credibility **without further verification**
 
-## The Trust Chain
+## The Trust Chain {.long-only}
 
 This mirrors:
 
@@ -43,7 +43,7 @@ This mirrors:
 
 Institutions emitting TROs have strong incentives to **maintain trust** — their credibility depends on it.
 
-## Example
+## Example {.long-only}
 
 ![](figs/trace-arrangements.png)
 

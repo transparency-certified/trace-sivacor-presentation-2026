@@ -143,9 +143,9 @@ Add a few computationally easy steps:
 :::
 :::
 
-# Scenarios TRACE Addresses
+# Scenarios TRACE Addresses {.long-only}
 
-## SCN1 — Journal reproducibility checks
+## SCN1 — Journal reproducibility checks {.long-only}
 
 ::: {.highlight-box}
 
@@ -155,7 +155,7 @@ Authors use SIVACOR to demonstrate push-button reproducibility before submission
 
 Estimated **20–40%** of AEA submissions are amenable to this.
 
-## SCN2 — Certification at the source
+## SCN2 — Certification at the source {.long-only}
 
 ::: {.highlight-box}
 
@@ -165,7 +165,7 @@ Long-running jobs on university clusters via SLURM can be configured with TRACE-
 
 **Universities become producers of TROs**, providing enhanced credibility to affiliated researchers.
 
-## SCN3 — Restricted access data environments
+## SCN3 — Restricted access data environments {.long-only}
 
 ::: {.highlight-box}
 
@@ -175,7 +175,7 @@ RADCs have no vested interest in any particular paper — they satisfy the arms-
 
 Partners at **central banks** (and World Bank!) are already implementing TRACE-compliant capabilities.
 
-## SCN4 — Comparing reproducibility services
+## SCN4 — Comparing reproducibility services {.long-only}
 
 ::: {.highlight-box}
 
@@ -183,7 +183,7 @@ TRACE provides a systematic, standardized vocabulary — machine- and human-read
 
 :::
 
-## SCN5 — Transient resources (5/5)
+## SCN5 — Transient resources (5/5) {.long-only}
 
 ::: {.highlight-box}
 

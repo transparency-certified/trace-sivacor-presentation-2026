@@ -1,6 +1,6 @@
-# Certification is not new
+# Certification is not new {.long-only}
 
-## Services now provide active verification:
+## Services now provide active verification: {.long-only}
 
 | Service | Approach |
 |---------|----------|
@@ -8,7 +8,7 @@
 | World Bank | Internal service, access to confidential data |
 | Codeocean | Containerized capsules with manual compliance checking |
 
-## The Transparency Gap
+## The Transparency Gap 
 
 When a reproducibility service has re-run code and issued a certificate — **what actually happened?**
 

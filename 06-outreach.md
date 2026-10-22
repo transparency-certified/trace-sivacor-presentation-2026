@@ -14,7 +14,7 @@
 
 Core collaborations already in place with several journals — see Support Letters.
 
-## Engaging Researchers
+## Engaging Researchers {.long-only}
 
 **[DR1] Dissemination:** Information sessions at:
 - NBER Summer School
@@ -28,7 +28,7 @@ Core collaborations already in place with several journals — see Support Lette
 - Recorded videos
 - Interactive instruction at conferences
 
-## Feedback and Adoption
+## Feedback and Adoption {.long-only}
 
 **[DR3] Institutional pathways:** Researchers encouraged or required to use SIVACOR when:
   - Preparing journal submissions
@@ -39,31 +39,3 @@ Core collaborations already in place with several journals — see Support Lette
 - Follow-up at 3 and 6 months post-TRO: submission success, satisfaction
 - Users obtaining TROs encouraged to **cite the grant**
 
-## Summary
-
-::: {.columns}
-::: {.column width="50%"}
-
-**The problem:**
-
-Computational reproducibility verification is expensive, time-consuming, and impossible for restricted-data research
-
-**The solution:**
-
-TRACE — certify the process, not just the output
-
-:::
-::: {.column width="50%"}
-
-**The components:**
-
-- **TROV** — the vocabulary
-- **TRO** — the certified artifact
-- **TRS / SIVACOR** — the system
-
-**The goal:**
-
-Trust in published research, reduced burden on authors, journals, and reviewers
-
-:::
-:::

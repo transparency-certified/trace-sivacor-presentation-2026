@@ -1,7 +1,4 @@
 
-# Thank you for attending! {.center}
-
----
 
 ## Sources and further reading
 
