@@ -9,25 +9,26 @@
 
 ## Live {.long-only}
 
-
 [![](figs/sivacor-login.png)](https://submit.sivacor.org)
 
----
+## Upload {.long-only}
+
 
 ![](figs/sivacor-upload-page.png)
 
----
+## Completed {.long-only}
+
 
 ![](figs/sivacor-completed-run.png)
 
 
-## How a TRO is made
+## How a TRO is made {.long-only}
 
 A simplified walk-through of the [TRACE sample implementation](https://transparency-certified.github.io/trace-specification/docs/sample-implementation/)
 
-## 1. Set up the system {.step-number .center}
+## 1. Set up the system {.step-number .center .long-only}
 
-## Set up the system
+## Set up the system {.long-only}
 
 The organization prepares its **Trusted Research System**:
 
@@ -35,39 +36,39 @@ The organization prepares its **Trusted Research System**:
 - Describe the system's **capabilities** and owner
 - Install the TRACE tooling (`tro-utils`)
 
-## 2. Snapshot before {.step-number .center}
+## 2. Snapshot before {.step-number .center .long-only}
 
-## Snapshot before
+## Snapshot before {.long-only}
 
 Record the **initial state** of the project — code and data exactly as submitted, before anything runs.
 
-## 3. Run the workflow {.step-number .center}
+## 3. Run the workflow {.step-number .center .long-only}
 
-## Run the workflow
+## Run the workflow {.long-only}
 
 Build and run the **containerized** research code, unattended — push-button.
 
-## 4. Snapshot after {.step-number .center}
+## 4. Snapshot after {.step-number .center .long-only}
 
-## Snapshot after
+## Snapshot after {.long-only}
 
 Record the **final state**: every file the run produced or changed.
 
-## 5. Add run details {.step-number .center}
+## 5. Add run details {.step-number .center .long-only}
 
-## Add run details
+## Add run details {.long-only}
 
 Attach **execution metadata** from the system logs: what ran, on what, with what resources.
 
-## 6. Sign and publish {.step-number .center}
+## 6. Sign and publish {.step-number .center .long-only}
 
-## Sign and publish
+## Sign and publish {.long-only}
 
 **Sign** the TRO with a trusted timestamp so it cannot be altered, then **publish** it together with the TRS description.
 
 ## Who runs SIVACOR?
 
-A SIVACOR instance is run by a **trusted organization** 
+A SIVACOR instance can be run by a **trusted organization** 
 
 - journal
 - university
@@ -89,7 +90,7 @@ For journals:
 - TRACE metadata is machine-readable and comparable
 - Works for journals **with and without** dedicated data editors
 
-## The Bigger Picture
+## The Bigger Picture {.long-only}
 
 
 ::: {.fragment}
